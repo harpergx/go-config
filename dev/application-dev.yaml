@@ -2,6 +2,12 @@ config:
   name: dev
 
 
+db:
+ maxIdleConns: 2
+ maxOpenConns: 10
+ connMaxLifetime: 3
+
+
 error:
   msg:
     paymentfailed: "결제 실패"
