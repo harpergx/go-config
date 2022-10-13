@@ -1,3 +1,9 @@
+spring: 
+  application: 
+    name: application
+  profiles: 
+    active: dev
+
 config:
   name: dev
 
