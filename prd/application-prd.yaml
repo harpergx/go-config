@@ -1,2 +1,8 @@
 config:
   name: prd
+  
+error:
+  msg:
+    paymentfailed: "결제 실패"
+    orderfailed: "주문 실패"
+
